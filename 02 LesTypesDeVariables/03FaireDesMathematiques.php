@@ -9,20 +9,22 @@
     modulo => %
     exponential => **
 */
-    $premierNombre;
-    $deuxiemeNombre;
 
-    echo $premierNombre * $deuxiemeNombre;
-    echo $premierNombre + $deuxiemeNombre;
-    echo $premierNombre - $deuxiemeNombre;
-    echo $premierNombre / $deuxiemeNombre;
+    // delcaration and initialization
+    $premierNombre = 25;
+    $deuxiemeNombre = 5;
+
+    echo $premierNombre * $deuxiemeNombre . '<br/>';
+    echo $premierNombre + $deuxiemeNombre . '<br/>';
+    echo $premierNombre - $deuxiemeNombre . '<br/>';
+    echo $premierNombre / $deuxiemeNombre . '<br/>';
 
     $operationCalcul = (((5 * 5) /5) + 158);
-    echo $operationCalcul;
+    echo $operationCalcul . '<br/>';
 
     // use the value operationCalcul for divide and reset value operationcalcul which the result
     $operationCalcul = $operationCalcul / 5;
-    echo $operationCalcul;
+    echo $operationCalcul . '<br/>';
     // reset value
     $operationCalcul = $operationCalcul * 5;
     
@@ -30,7 +32,7 @@
 
     // use the value operationCalcul for divide and reset value operationcalcul which the result
     $operationCalcul /= 5;
-    echo $operationCalcul;
+    echo $operationCalcul . '<br/>';
     // reset value
     $operationCalcul *= 5;
     
@@ -41,7 +43,7 @@
     $operationCalcul++;
     // pre incrementation
     ++$operationCalcul;
-    echo $operationCalcul;
+    echo $operationCalcul . '<br/>';
 
     // decrementation
     // post decrementation
